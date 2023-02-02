@@ -2,7 +2,7 @@
   "name": "nina-extension",
   "displayName": "nina",
   "description": "",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -27,5 +27,6 @@
     "url": "https://github.com/jwhgzs/nina-extension.git"
   },
   "license": "MIT",
-  "publisher": "jwhgzs"
+  "publisher": "jwhgzs",
+  "icon": "./logo.ico"
 }
