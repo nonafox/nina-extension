@@ -1,0 +1,73 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "nina",
+	"patterns": [
+		{ "include": "#keywords" },
+		{ "include": "#strings" },
+		{ "include": "#strings2" },
+		{ "include": "#comments" },
+		{ "include": "#comments2" },
+		{ "include": "#numbers" },
+		{ "include": "#specials" },
+		{ "include": "#整活" }
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.nina",
+					"match": "((^|(?<=[\\w\\s;\\{\\}\\[\\]\\(\\)]))(;)((?=[\\w\\s;\\{\\}\\[\\]\\(\\)])))|(\\b(if|else|elseif|while|return|break|continue|func|var|const)\\b)"
+				},
+				{
+					"name": "keyword.operator",
+					"match": "((^|(?<=[\\w\\s;\\{\\}\\[\\]\\(\\)]))(\\+|\\-|\\*|\\/|%|\\*\\*|\\&|\\|\\&\\&|\\|\\||\\!|~|=|==|=\\>|\\!=|\\>|\\<|\\>=|\\<=|\\<\\<|\\>\\>|,|\\.|@)(?=[\\w\\s;\\{\\}\\[\\]\\(\\)]))|(\\b(array|object)\\b)"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.nina",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.nina",
+					"match": "\\\\."
+				}
+			]
+		},
+		"strings2": {
+			"name": "string.quoted.single.nina",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.nina",
+					"match": "\\\\(n|t)"
+				}
+			]
+		},
+		"comments": {
+			"name": "comment.line",
+			"begin": "\\/\\/",
+			"end": "$"
+		},
+		"comments2": {
+			"name": "comment.block",
+			"begin": "/\\*",
+			"end": "\\*/"
+		},
+		"numbers": {
+			"name": "constant.numeric",
+			"match": "\\b([0-9]+(\\.[0-9]+){0,1})\\b"
+		},
+		"specials": {
+			"name": "markup.changed",
+			"match": "\\b(null|true|false|this|self)\\b"
+		},
+		"整活": {
+			"name": "markup.bold",
+			"match": "\\b(nina|jwh|谭镇洋)\\b"
+		}
+	},
+	"scopeName": "source.nina"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "nina-extension",
+  "displayName": "nina",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "nina",
+      "aliases": ["nina", "nina"],
+      "extensions": [".nina"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "nina",
+      "scopeName": "source.nina",
+      "path": "./syntaxes/nina.tmLanguage.json"
+    }]
+  }
+}
