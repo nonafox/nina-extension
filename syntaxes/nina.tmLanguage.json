@@ -31,7 +31,7 @@
 			"patterns": [
 				{
 					"name": "constant.character.escape.nina",
-					"match": "\\\\(n|t)"
+					"match": "\\\\(n|t|\"|')"
 				}
 			]
 		},
@@ -42,7 +42,7 @@
 			"patterns": [
 				{
 					"name": "constant.character.escape.nina",
-					"match": "\\\\(n|t)"
+					"match": "\\\\(n|t|\"|')"
 				}
 			]
 		},
