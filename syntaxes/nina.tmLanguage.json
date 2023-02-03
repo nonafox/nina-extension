@@ -62,7 +62,7 @@
 		},
 		"specials": {
 			"name": "markup.changed",
-			"match": "\\b(null|true|false|this|self|argument|exception)\\b"
+			"match": "\\b(null|true|false|this|self|argument|exception|type)\\b"
 		},
 		"整活": {
 			"name": "markup.bold",

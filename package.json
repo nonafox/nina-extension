@@ -2,7 +2,7 @@
   "name": "nina-extension",
   "displayName": "nina",
   "description": "",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "engines": {
     "vscode": "^1.74.0"
   },
