@@ -16,7 +16,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.nina",
-					"match": "((^|(?<=[\\w_$\\s;\\{\\}\\[\\]\\(\\)]))(;)((?=[\\w_$\\s;\\{\\}\\[\\]\\(\\)])))|(\\b(if|else|elseif|while|return|break|continue|func|var|const|try|catch)\\b)"
+					"match": "((^|(?<=[\\w_$\\s;\\{\\}\\[\\]\\(\\)]))(;)((?=[\\w_$\\s;\\{\\}\\[\\]\\(\\)])))|(\\b(if|else|elseif|while|return|break|continue|func|var|const|try|catch|with)\\b)"
 				},
 				{
 					"name": "keyword.operator",
