@@ -67,7 +67,7 @@
 		},
 		"specials2": {
 			"name": "markup.italic",
-			"match": "\\b(eval|运行|throw|抛出|number|到数字|string|到字符串|console_print|输出|console_printf|输出换行|console_read|输入|console_exit|退出)\\b"
+			"match": "\\b(eval|执行|throw|抛出|number|到数字|string|到字符串|console_print|输出|console_printf|输出换行|console_read|输入|console_exit|退出)\\b"
 		},
 		"整活": {
 			"name": "markup.bold",
