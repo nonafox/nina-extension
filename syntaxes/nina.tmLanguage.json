@@ -17,7 +17,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.nina",
-					"match": "((^|(?<=[\\w_$\\s;\\{\\}\\[\\]\\(\\)]))(;)((?=[\\w_$\\s;\\{\\}\\[\\]\\(\\)])))|(\\b(if|else|elseif|while|return|break|continue|func|var|const|try|catch|with)\\b)"
+					"match": "((^|(?<=[\\w_$\\s;\\{\\}\\[\\]\\(\\)]))(;)((?=[\\w_$\\s;\\{\\}\\[\\]\\(\\)])))|(\\b(if|如果|else|否则|elseif|否则如果|while|循环|return|返回|break|退出循环|continue|继续循环|func|函数|var|变量|const|常量|try|尝试|catch|捕捉|with|应用)\\b)"
 				},
 				{
 					"name": "keyword.operator",
