@@ -63,7 +63,7 @@
 		},
 		"specials": {
 			"name": "markup.changed",
-			"match": "\\b(null|true|false|this|self|argument|exception|type)\\b"
+			"match": "\\b(null|空|true|真|false|假|this|自身对象|self|自身函数|argument|参数|exception|异常|type|类型)\\b"
 		},
 		"specials2": {
 			"name": "markup.heading",
