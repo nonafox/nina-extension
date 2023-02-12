@@ -9,6 +9,7 @@
 		{ "include": "#comments2" },
 		{ "include": "#numbers" },
 		{ "include": "#specials" },
+		{ "include": "#specials2" },
 		{ "include": "#整活" }
 	],
 	"repository": {
@@ -63,6 +64,10 @@
 		"specials": {
 			"name": "markup.changed",
 			"match": "\\b(null|true|false|this|self|argument|exception|type)\\b"
+		},
+		"specials2": {
+			"name": "markup.italic",
+			"match": "\\b(eval|throw|number|string|console_print|console_printf|console_read|exit)\\b"
 		},
 		"整活": {
 			"name": "markup.bold",
